@@ -35,12 +35,7 @@ function randomizeString(string, amount)
                 const stringCurrent = arrayResponse[c].split('');
     
                 for (let cc = 0; cc < characters.length; cc++)
-                {
-                    if (stringCurrent[cc] == characters[cc])
-                    {
-                        loop = true;
-                    }
-                }
+                    if (stringCurrent[cc] == characters[cc]) loop = true;
             }
         }
 
