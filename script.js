@@ -49,7 +49,7 @@ function randomizeString(string, amount)
 
 function testeScript()
 {
-    let charactersPossibles = " abcdefghijklmnopqrstuvwxyzáàãâéèêíìîóòôõúùûçABCDEFGHIJKLMNOPQRSTUVWXYZÁÀÃÂÉÈÊÍÌÎÓÒÔÕÚÙÛÇ1234567890<>,.:;/\\\'\"!@#$%§¨&|*()-_=+`´{}[]ªº?°\n";
+    let charactersPossibles = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     const stringsRandom = randomizeString(charactersPossibles, 50);
     
