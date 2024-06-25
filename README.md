@@ -1,5 +1,5 @@
 # Random String
-Uma função feita com Javascript que embaralha uma **string** uma quantidade de vezes específica.
+Uma função feita com Javascript que embaralha uma **string** uma quantidade de vezes específica, gerando resultados que não podem se repetir de forma alguma.
 
 ## ✨ Nome da Função
 **randomizeString()**.
